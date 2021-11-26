@@ -1,0 +1,82 @@
+
+html {
+    font-size: 62.5%;}
+    
+body {
+    font-size: 1.8rem;
+    line-height: 1.618;}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-weight: 700;
+  overflow-wrap: break-word;
+  word-break: break-word; }
+
+h1 {
+  font-size: 2.00em; 
+  color: #ff3333;}
+  
+h2 {
+  font-size: 1.75em; 
+  color:  #839192;
+  text-decoration: underline #839192; }
+
+h2 ~ h2 {
+    font-size: 1.75em; 
+    color:#616a6b;
+    text-decoration: underline#616a6b;}
+
+h2 ~ h2 ~ h2 {
+    font-size: 1.75em; 
+    color: #212f3c;
+    text-decoration: underline #212f3c;}
+
+h2 ~ h2 ~ h2 ~ h2{
+    font-size: 1.75em; 
+    color: #17202a;
+    text-decoration: underline #17202a;}
+
+
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.25em; }
+
+
+p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
+
+ul {
+  margin-bottom: 2.5rem; }
+
+li {
+  list-style-type: upper-roman;
+  margin-bottom: 0.4em; }
+
+a {
+  text-decoration: none;
+  color:#27ae60; }
+  a:hover {
+    color:#239b56;
+    border-bottom: 2px solid #239b56; }
+  a:visited {
+    color:#2ecc71; }
+
+.Franky {
+    color:#bdc3c7;
+    background-color:#27ae60;}
+
+.Avi {  
+    color:#2980b9;
+    background-color:#aed6f1;}
+
+.Tony {
+    color:#58d68d;
+    background-color:#c0392b;}
+
+.Boris {
+    color:#c0392b;
+    background-color:#58d68d;}
