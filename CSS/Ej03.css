@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;}
+    
+body {
+    font-size: 1.8rem;
+    line-height: 1.618;}
+
+
+p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem; }
+
+.figure1 {
+    margin:0px;
+    padding:0px;
+    height:300px;
+    width:307px;
+    border: 2px solid #1a1a1a;}
+
+.figure2 {
+    padding: 10px;
+    height:40px;
+    border: 5px solid #1a1a1a;}
