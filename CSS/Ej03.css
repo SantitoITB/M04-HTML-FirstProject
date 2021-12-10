@@ -1,46 +1,54 @@
 html {
     font-size: 62.5%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;}
-    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
 body {
     font-size: 1.8rem;
-    line-height: 1.618;}
-
+    line-height: 1.618;
+}
 
 p {
-  margin-top: 0px;
-  margin-bottom: 2.5rem; }
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+}
 
 .figure1 {
-    height:300px;
-    width:307px;
-    border: 2px solid #1a1a1a;}
+    height: 300px;
+    width: 307px;
+    border: 2px solid #1a1a1a;
+}
 
 .figure2 {
     padding: 10px;
-    height:40px;
-    border: 5px solid #1a1a1a;}
+    height: 40px;
+    border: 5px solid #1a1a1a;
+}
 
 .figure3 {
-    margin:20px;
-    border-width:3px;
-    border: 1px solid #ff0000;}
+    margin: 20px;
+    border-width: 3px;
+    border: 1px solid #ff0000;
+}
 
-.figure4{
+.figure4 {
     border-radius: 25px;
-    height:150px;
-    width:50%;
-    border: 3px solid #00d9ff;}
+    height: 150px;
+    width: 50%;
+    border: 3px solid #00d9ff;
+}
 
-.figure5{
+.figure5 {
     padding-left: 70px;
-    border-width:3px;
-    border: 2px solid #1a1a1a;}
+    border-width: 3px;
+    border: 2px solid #1a1a1a;
+}
 
 .figure6 {
-    border-width:3px;
+    border-width: 3px;
     border: 2px solid #1a1a1a;
-    margin-left: 70px;}
+    margin-left: 70px;
+}
 
 .figure7 {
     border: 3px solid #00d9ff;
