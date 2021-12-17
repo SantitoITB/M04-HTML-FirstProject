@@ -1,0 +1,78 @@
+html{
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+}
+body {
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+h2{
+    font-size: 3.00em;
+color: black; 
+font-weight: bold;}
+
+nav {
+    justify-content: center;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+ul{
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+li{
+  align-items: center;
+  display: flex;
+}
+a{
+  align-items: center;
+  color: skyblue;
+  display: flex;
+  justify-content: center;
+  padding: 0 0.75em;
+}
+
+main, aside{
+    flex-wrap: wrap;
+    margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.seca {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+  flex: none;
+  width: 60%;
+  background-color: tomato;
+}
+
+.title {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: skyblue;
+  color: #fff;
+}
+footer{
+    background-color: skyblue;
+}
+aside{
+    background-color: turquoise;
+    display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
