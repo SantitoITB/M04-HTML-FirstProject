@@ -31,3 +31,23 @@ function _3() {
   let TN = +document.getElementById("_3_TN").value
   window.alert(multiply3(FN,SN,TN))
 }
+
+function _4() {
+  let arr = []
+  for (let i = 1; i < 10000 ; i++) {
+    let result = 0
+
+    let digits = i.toString().split('');
+    let realDigits = digits.map(Number);
+
+    for (const element of realDigits){
+      result += element * element * element 
+    }
+    
+
+    if (result == i){
+      arr.push(result)
+    }
+ }
+ window.alert(arr)
+}

@@ -2,8 +2,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
   main();
 });
 
-function generateRandomArray() {
-  return Array.from({ length: 5 }, () => Math.floor(Math.random() * 10));
+function generateRandomArray(size, limit) {
+  return Array.from({ length: size }, () => Math.floor(Math.random() * limit));
 }
 
 function askUser(arrSize) {
@@ -40,6 +40,7 @@ function game(rounds, mysteriousArray) {
       round++;
       let attempt = round + " attempt : " + userTry;
       document.getElementById("attempts").innerHTML += "<h5>" + attempt + "</h5>";
+      
       if (arrayEquals(userTry, mysteriousArray)) {
           document.getElementById("print").innerHTML = "You Win!!";
           return;
